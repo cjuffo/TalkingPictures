@@ -1,0 +1,79 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Black" />
+
+    <!-- ROW LAYOUT -->
+    <style name="rowlayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imageview_row">
+        <item name="android:layout_width">@dimen/image_width_height</item>
+        <item name="android:layout_height">@dimen/image_width_height</item>
+        <item name="android:layout_marginLeft">@dimen/image_margin_left_top</item>
+        <item name="android:layout_marginTop">@dimen/image_margin_left_top</item>
+        <item name="android:layout_marginRight">@dimen/image_margin_right</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="text_row">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:text">@string/blank</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+    </style>
+
+
+    <!-- SELECT AND DISPLAY LAYOUT -->
+
+    <style name="imageview_sel_dis">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.60</item>
+    </style>
+
+    <style name="textview_sel_dis">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/Enter_Des</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="buttons_sel_dis">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">myClickHandler</item>
+    </style>
+
+    <!-- DIALOG LAYOUT -->
+
+    <style name="dia_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dia_img_ht</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginBottom">@dimen/dia_marg</item>
+        <item name="android:layout_marginTop">@dimen/dia_marg</item>
+    </style>
+
+    <style name="layout_button">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dia_marg</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="dia_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/dia_close</item>
+        <item name="android:onClick">myClickHandler</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/selected_picture"
+        style="@style/imageview_sel_dis" >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/descrip"
+        style="@style/textview_sel_dis" >
+    </EditText>
+
+    <Button
+        android:id="@+id/save_it"
+        style="@style/buttons_sel_dis"
+        android:text="@string/SAVE" >
+    </Button>
+
+    <Button
+        android:id="@+id/cancel_it"
+        style="@style/buttons_sel_dis"
+        android:text="@string/CANCEL" >
+    </Button>
+
+</LinearLayout>

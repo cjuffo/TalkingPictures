@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/dialog_pic"
+        style="@style/dia_image" >
+    </ImageView>
+
+    <LinearLayout style="@style/layout_button" >
+
+        <Button
+            android:id="@+id/dismiss_dialog"
+            style="@style/dia_button" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
